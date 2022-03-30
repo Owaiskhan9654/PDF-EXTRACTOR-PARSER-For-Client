@@ -3,7 +3,7 @@ import pdfplumber
 import io
 
 
-def remove_watermark(path):
+def pdf_extractor(path):
 
     df1 = pd.DataFrame(
         columns=['Doc Type', 'Document.No', 'Posting Date', 'Bill.No', 'Bill.Date', 'Gross', 'Net.Amt Deductions',
